@@ -136,6 +136,27 @@ d<!DOCTYPE html>
     color: aqua;
   }
 
+  #videoSection{
+      width: 100%;
+      background: rgb(10, 153, 197);
+  
+     }
+
+     .row{
+        width: 100%;
+        font-size: 0;
+
+     }
+
+     .videoBoxes{
+       display: inline-block;
+       background: rgb(238, 234, 234);
+       width: 20%;
+       height: 150;
+       font-size: 16px;
+       margin: 2.5px;
+     }
+
 
      </style>
   
@@ -174,7 +195,7 @@ d<!DOCTYPE html>
 
     <div id="largeImage"> 
 
-      <video max-width="1900" height="500" controls>
+      <video max-width=100% height="500" controls>
         <source src="opener.mp4" type="video/mp4">
         
        Your browser does not support the video tag.
@@ -205,6 +226,38 @@ d<!DOCTYPE html>
     </div>
 
   
-    
+    <div id="videoSection">
+
+      <div class= "row">
+
+          <div class="videoBoxes">
+              Video
+
+          </div>
+          <div class="videoBoxes">
+            Video
+
+        </div>
+        <div class="videoBoxes">
+          Video
+
+      </div>
+      <div class="videoBoxes">
+        Video
+
+    </div>
+    <div class="videoBoxes">
+      Video
+
+    </div>
+
+
+      </div>
+    </div>
+
+
+
+
   </body>
+
 </html>
